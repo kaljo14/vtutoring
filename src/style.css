@@ -1,0 +1,101 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500&display=swap');
+
+/* Define Color Palette */
+:root {
+  --primary-color: #00BFFF; /* Electric Blue */
+  --secondary-color: #4A4A60; /* Cool Gray */
+  --background-color: #FFFFFF; /* White */
+  --text-color: #1A2036; /* Deep Navy */
+  --accent-teal: #00E4FF; /* Vivid Teal */
+  --accent-purple: #AF8AF0; /* Soft Lavender */
+  --light-color: #FFFFFF; /* White for cards and backgrounds */
+  --border-color: #DEE2E6; /* Light Gray for borders */
+}
+
+/* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  padding-top: 56px; /* Adjust for fixed navbar */
+}
+
+section {
+  scroll-margin-top: 56px; /* Adjust for fixed navbar */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.display-3 {
+  font-weight: 700;
+}
+
+.lead {
+  font-weight: 400;
+}
+
+/* Button Styles */
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* A darker blue on hover */
+  transform: translateY(-2px);
+}
+
+.btn-special {
+  background-color: var(--accent-purple); /* Soft Lavender */
+  border-color: var(--accent-purple);
+  color: white;
+  animation: pulse 2s infinite;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-special:hover {
+  background-color: #9D78D8; /* Darker Lavender */
+  border-color: #9D78D8;
+  transform: scale(1.05);
+  animation-play-state: paused;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(175, 138, 240, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 20px rgba(175, 138, 240, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(175, 138, 240, 0);
+  }
+}
+
+/* Card Styles */
+.card {
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Header and Footer */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.footer {
+  background-color: var(--text-color);
+  color: var(--light-color);
+}
