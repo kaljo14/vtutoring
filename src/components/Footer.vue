@@ -2,7 +2,7 @@
   <footer class="footer py-4 text-white">
     <div class="container text-center">
       <div class="mb-3">
-        <a href="https://www.linkedin.com/in/viktoriya-v-98b325196/" class="text-white me-3" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin fs-4"></i></a>
+                <a href="https://www.linkedin.com/in/viktoriya-v-98b325196/" class="text-white me-3" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin fs-4"></i></a>
       </div>
       <p>&copy; 2025 Viki Tutoring. All Rights Reserved.</p>
     </div>
