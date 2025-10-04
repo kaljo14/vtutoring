@@ -9,14 +9,10 @@ import 'aos/dist/aos.css'
 
 // Import components
 import Home from './components/Home.vue'
-import Review from './components/Review.vue'
-import Admin from './components/Admin.vue'
 
 // Define routes
 const routes = [
-  { path: '/', component: Home },
-  { path: '/review', component: Review },
-  { path: '/admin', component: Admin }
+  { path: '/', component: Home }
 ]
 
 // Create router instance
