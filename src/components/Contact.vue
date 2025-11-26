@@ -47,9 +47,8 @@ const handleSubmit = async () => {
   submitting.value = true;
 
   try {
-    const apiBaseUrl = import.meta.env.VITE_API_BASE_URL;
 
-    const response = await fetch(`${apiBaseUrl}/contact`, {
+    const response = await fetch(`/contact`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -78,6 +77,7 @@ const handleSubmit = async () => {
     submitting.value = false;
   }
 };
+
 </script>
 
 <style scoped>
