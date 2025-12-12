@@ -8,7 +8,8 @@
             We offer one-on-one online tutoring for Math, Science, and English for middle and high school students.
           </p>
           <p>
-            The sessions are online, but the connection formed with our tutors makes it feel different. Our tutors are genuinely dedicated to student success and are familiar with American teaching methods. We believe in empowering students to decide on the tutor that best fits their learning style.
+The sessions are online, but the connection formed with our tutors makes it feel different. Our tutors are dedicated to student success and are familiar with American teaching methods. We believe in empowering students by truly understanding how they learn best.
+
           </p>
         </div>
       </div>
