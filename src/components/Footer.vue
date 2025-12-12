@@ -2,7 +2,7 @@
   <footer class="footer py-4 text-white">
     <div class="container text-center">
 
-      <p>&copy; 2025 VikTutors. All Rights Reserved.</p>
+      <p>&copy; 2025 VikTutors. Chicago, IL. All Rights Reserved.</p>
     </div>
   </footer>
 </template>

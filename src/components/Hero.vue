@@ -13,7 +13,7 @@
     </div>
     <div class="container hero-content">
       <h1 class="display-3" data-aos="fade-up">Ignite a Passion for Learning</h1>
-      <h2 class="lead" data-aos="fade-up" data-aos-delay="100">Expert 1-on-1 tutoring designed to build confidence and achieve academic success.</h2>
+      <h2 class="lead" data-aos="fade-up" data-aos-delay="100">Expert 1-on-1 tutoring in Chicago designed to build confidence and achieve academic success.</h2>
       <a href="#contact" class="btn btn-special btn-lg mt-4" data-aos="fade-up" data-aos-delay="200">Book a Free Consultation</a>
     </div>
   </section>
