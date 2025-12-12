@@ -1,10 +1,10 @@
 <template>
   <section id="contact" class="py-5 bg-light">
     <div class="container">
-      <h2 class="text-center mb-5 display-5">Contact Me</h2>
+      <h2 class="text-center mb-5 display-5">Contact Us</h2>
       <div class="col-md-8 mx-auto" data-aos="fade-up">
         <div v-if="submitted" class="alert alert-success" role="alert">
-          Thank you for your message! I will get back to you shortly.
+          Thank you for your message! We will get back to you shortly.
         </div>
         <form v-else @submit.prevent="handleSubmit" class="p-4 bg-white rounded-3 shadow-sm">
           <div class="form-floating mb-3">
@@ -16,7 +16,7 @@
             <label for="email">Email address</label>
           </div>
           <div class="form-floating mb-3">
-            <textarea class="form-control" id="message" rows="5" placeholder="How can I help?" v-model="form.message" required style="height: 150px;"></textarea>
+            <textarea class="form-control" id="message" rows="5" placeholder="How can we help?" v-model="form.message" required style="height: 150px;"></textarea>
             <label for="message">Message</label>
           </div>
           <div class="text-center">
@@ -27,6 +27,7 @@
           </div>
         </form>
       </div>
+
     </div>
   </section>
 </template>

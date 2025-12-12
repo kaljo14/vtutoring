@@ -13,7 +13,7 @@
         <div class="row align-items-center mb-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">
           <div class="col-md-6 text-center text-md-end order-1 mb-3 mb-md-0 d-flex justify-content-center justify-content-md-end">
             <div class="step-circle bg-white shadow-sm position-relative z-1 text-center p-4 d-flex flex-column justify-content-center align-items-center">
-              <div class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-theme-primary fs-5 border border-4 border-white shadow-sm" style="width: 3rem; height: 3rem; display: flex; align-items: center; justify-content: center;">1</div>
+
               <div class="icon-wrapper mb-3 text-theme-primary bg-theme-light rounded-circle d-flex align-items-center justify-content-center" style="width: 70px; height: 70px;">
                 <i class="bi bi-calendar-check-fill display-6"></i>
               </div>
@@ -22,27 +22,29 @@
             </div>
           </div>
           <div class="col-md-6 order-2 text-center text-md-start">
-            <div class="description-box p-4">
-              <p class="lead text-muted mb-0">We believe that a strong student-tutor relationship is the foundation of success. In this free initial session, we take the time to understand your unique learning style, academic goals, and personal interests to ensure we can provide the best possible support.</p>
+            <div class="description-box p-4 d-flex align-items-start">
+              <div class="step-number me-3 text-theme-primary display-4 fw-bold" style="line-height: 1;">1</div>
+              <p class="lead text-muted mb-0">Schedule a phone call to help us understand more about the students goals and discuss the schedule desired.</p>
             </div>
           </div>
         </div>
 
-        <!-- Step 2: Text Left, Circle Right -->
+        <!-- Step 2: Circle Left, Text Right -->
         <div class="row align-items-center mb-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-          <div class="col-md-6 order-2 order-md-1 text-center text-md-end">
-            <div class="description-box p-4">
-              <p class="lead text-muted mb-0">Finding the perfect match is crucial. We don't just assign a tutor; we carefully select an educator whose teaching style and personality align with yours. This ensures a comfortable and effective learning environment where you can thrive.</p>
-            </div>
-          </div>
-          <div class="col-md-6 text-center order-1 order-md-2 mb-3 mb-md-0 d-flex justify-content-center justify-content-md-start">
+          <div class="col-md-6 text-center text-md-end order-1 mb-3 mb-md-0 d-flex justify-content-center justify-content-md-end">
             <div class="step-circle bg-white shadow-sm position-relative z-1 text-center p-4 d-flex flex-column justify-content-center align-items-center">
-              <div class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-theme-secondary fs-5 border border-4 border-white shadow-sm" style="width: 3rem; height: 3rem; display: flex; align-items: center; justify-content: center;">2</div>
+
               <div class="icon-wrapper mb-3 text-theme-secondary bg-theme-light-secondary rounded-circle d-flex align-items-center justify-content-center" style="width: 70px; height: 70px;">
                 <i class="bi bi-people-fill display-6"></i>
               </div>
               <h4 class="fw-bold mb-2 fs-5">Match with Tutor</h4>
               <p class="text-muted mb-0 small">We match you with a tutor that fits your learning style.</p>
+            </div>
+          </div>
+          <div class="col-md-6 order-2 text-center text-md-start">
+            <div class="description-box p-4 d-flex align-items-start">
+              <div class="step-number me-3 text-theme-secondary display-4 fw-bold" style="line-height: 1;">2</div>
+              <p class="lead text-muted mb-0">You match with a tutor and start your first session.</p>
             </div>
           </div>
         </div>
@@ -51,7 +53,7 @@
         <div class="row align-items-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
           <div class="col-md-6 text-center text-md-end order-1 mb-3 mb-md-0 d-flex justify-content-center justify-content-md-end">
             <div class="step-circle bg-white shadow-sm position-relative z-1 text-center p-4 d-flex flex-column justify-content-center align-items-center">
-              <div class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-theme-primary fs-5 border border-4 border-white shadow-sm" style="width: 3rem; height: 3rem; display: flex; align-items: center; justify-content: center;">3</div>
+
               <div class="icon-wrapper mb-3 text-theme-primary bg-theme-light rounded-circle d-flex align-items-center justify-content-center" style="width: 70px; height: 70px;">
                 <i class="bi bi-check-circle-fill display-6"></i>
               </div>
@@ -60,8 +62,9 @@
             </div>
           </div>
           <div class="col-md-6 order-2 text-center text-md-start">
-            <div class="description-box p-4">
-              <p class="lead text-muted mb-0">Once the sessions begin, we don't just set it and forget it. We encourage open communication to evaluate the fit after the first session. We'll discuss the long-term plan and make any necessary adjustments to ensure you're on the path to achieving your goals.</p>
+            <div class="description-box p-4 d-flex align-items-start">
+              <div class="step-number me-3 text-theme-primary display-4 fw-bold" style="line-height: 1;">3</div>
+              <p class="lead text-muted mb-0">After the session we ask both the tutor and the student if it is a good fit for both sides. This helps us make any necessary adjustments and to make sure you are on the right path to achieving your goals. We are flexible and hassle free!</p>
             </div>
           </div>
         </div>

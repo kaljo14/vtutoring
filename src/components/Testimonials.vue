@@ -18,6 +18,12 @@
       <div v-else class="text-center">
         <p>No reviews yet. Be the first to leave a review!</p>
       </div>
+
+      <div class="text-center mt-5" data-aos="fade-up" data-aos-delay="600">
+        <a href="https://www.google.com/search?si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-E6viby15YIHwbV6wd7pjmBhhIQPDMidfkWoi7-hfmMwADcmCD1lFjxT4uag8I7kaGIxbmBIR5tu1kQx3SmbzWjOMfCIF&q=VikTutors+Reviews#lrd=0x6d60ccc61463a6f:0xc12f7b4e7b59340b,3" target="_blank" rel="noopener noreferrer" class="btn btn-special btn-lg px-5 py-3 rounded-pill fw-bold shadow">
+          <i class="bi bi-google me-2"></i> Leave a Review
+        </a>
+      </div>
     </div>
   </section>
 </template>
@@ -27,20 +33,7 @@ export default {
   name: 'Testimonials',
   data() {
     return {
-      reviews: [
-        {
-          name: 'John Doe',
-          rating: 5,
-          review: 'My child has learned so much and is always excited to go to Viki. The teachers are amazing!',
-          status: 'approved'
-        },
-        {
-          name: 'Jane Smith',
-          rating: 4,
-          review: 'A fantastic and nurturing environment for kids. Highly recommend!',
-          status: 'approved'
-        }
-      ]
+      reviews: []
     };
   }
 };

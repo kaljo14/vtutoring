@@ -14,18 +14,14 @@
             <span class="badge rounded-pill bg-custom-purple px-3 py-2"><i class="bi bi-mortarboard-fill me-2"></i> Masters in Structural Engineering</span>
           </div>
 
-          <figure class="mb-4 border-start border-4 border-theme-primary ps-3">
-            <blockquote class="blockquote">
-              <p class="mb-0 fst-italic text-muted">"I am a structural engineer who is very passionate about teaching students."</p>
-            </blockquote>
-          </figure>
+          <p class="text-muted mb-3">
+            Viktoriya graduated from Adlai Stevenson High School with a perfect 4.0 GPA and continued her education at the Illinois Institute of Technology. She started teaching at Kumon Education Center at age 15, where she worked for two years, and also served as a swimming coach. For the past six years, she has been a private tutor for high school math students in the Northern Illinois Suburbs, including students from Adlai Stevenson, Libertyville, Vernon Hills, and Mundelein High Schools. All of her students have excelled in their courses and approach tutoring sessions with enthusiasm.
+          </p>
 
-          <p class="lead">
-             All of my students have excelled in their courses and always come with happiness and passion to tutoring sessions.
+          <p class="text-muted">
+            What separates Viktoriya from other tutors is the energy she brings to motivate students. Her passion for math helps students realize why learning matters and how it applies to the real world.
           </p>
-          <p>
-            My experience includes working at Kumon Education Centre for two years in early childhood math and reading, being a swim coach, and a private tutor for six years now. What separates me from other tutors is the energy that I bring to the studies to really motivate them on the subject. For instance, in Math, I can show them how what they are learning matters and is applied to the world. I graduated Stevenson’s High School early with a 4.0 GPA.
-          </p>
+
         </div>
       </div>
     </div>
