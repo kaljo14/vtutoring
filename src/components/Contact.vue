@@ -43,23 +43,41 @@ const form = ref({
 const submitting = ref(false);
 const submitted = ref(false);
 
-const handleSubmit = () => {
+const handleSubmit = async () => {
   submitting.value = true;
-  // Simulate form submission
-  setTimeout(() => {
+
+  try {
+
+    const response = await fetch(`/contact`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(form.value),
+    });
+
+    if (response.ok) {
+      submitted.value = true;
+      // Reset form after a few seconds
+      setTimeout(() => {
+        submitted.value = false;
+        form.value = {
+          name: '',
+          email: '',
+          message: '',
+        };
+      }, 5000);
+    } else {
+      throw new Error('Failed to send message.');
+    }
+  } catch (error) {
+    console.error(error);
+    alert('Failed to send message. Please try again later.');
+  } finally {
     submitting.value = false;
-    submitted.value = true;
-    // Reset form after a few seconds
-    setTimeout(() => {
-      submitted.value = false;
-      form.value = {
-        name: '',
-        email: '',
-        message: '',
-      };
-    }, 5000);
-  }, 2000);
+  }
 };
+
 </script>
 
 <style scoped>

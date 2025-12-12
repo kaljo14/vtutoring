@@ -27,21 +27,21 @@ export default {
   name: 'Testimonials',
   data() {
     return {
-      reviews: []
+      reviews: [
+        {
+          name: 'John Doe',
+          rating: 5,
+          review: 'My child has learned so much and is always excited to go to Viki. The teachers are amazing!',
+          status: 'approved'
+        },
+        {
+          name: 'Jane Smith',
+          rating: 4,
+          review: 'A fantastic and nurturing environment for kids. Highly recommend!',
+          status: 'approved'
+        }
+      ]
     };
-  },
-  async mounted() {
-    try {
-      const response = await fetch(`${API_BASE_URL}/reviews`);
-      console.log(response);
-      if (!response.ok) {
-        throw new Error('Network response was not ok');
-      }
-      const data = await response.json();
-      this.reviews = data.reviews.filter(review => review.status === 'approved');
-    } catch (error) {
-      console.error('There was an error fetching the reviews:', error);
-    }
   }
 };
 </script>
@@ -49,6 +49,7 @@ export default {
 <style scoped>
 .card {
   border-left: 5px solid var(--accent-teal);
+  height: 100%;
 }
 
 .rating .star {
