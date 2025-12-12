@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
     <div class="container">
       <router-link to="/" class="navbar-brand d-flex align-items-center">
-        <img :src="logo" alt="Viki Tutoring Logo" class="logo me-2" />
+        <img :src="logo" alt="VikTutors" class="logo me-2" />
         <span>VikTutors</span>
       </router-link>
       <div class="navbar-collapse d-none d-lg-block" id="navbarNav">
