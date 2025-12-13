@@ -62,7 +62,7 @@
           <div class="card h-100 text-center tutor-card">
             <div class="card-body p-4 d-flex flex-column">
               <div class="tutor-image-wrapper mx-auto mb-3">
-                <img :src="vikiImage" class="rounded-circle w-100 h-100 object-fit-cover" alt="Viki">
+                <img :src="vikiImage" class="rounded-circle w-100 h-100 object-fit-cover" alt="Viktoriya">
               </div>
               <h3 class="card-title fw-bold mb-2">Viktoriya</h3>
               <p class="text-muted mb-3"><small>Structural Engineer</small></p>
