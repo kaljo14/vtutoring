@@ -8,7 +8,7 @@
             <div class="card-body">
               <i class="bi bi-calculator-fill fs-1 text-custom-purple"></i>
               <h3 class="card-title mt-3">Mathematics</h3>
-              <div class="card-text text-start">
+              <div class="card-text">
                 <ul class="list-unstyled">
                   <li>Middle School Math</li>
                   <li>Algebra 1</li>
@@ -36,7 +36,7 @@
             <div class="card-body">
               <i class="bi bi-lightbulb-fill fs-1 text-custom-purple"></i>
               <h3 class="card-title mt-3">Science</h3>
-              <div class="card-text text-start">
+              <div class="card-text">
                 <ul class="list-unstyled">
                   <li>Biology</li>
                   <li>Chemistry</li>
@@ -60,7 +60,7 @@
             <div class="card-body">
               <i class="bi bi-laptop-fill fs-1 text-custom-purple"></i>
               <h3 class="card-title mt-3">Computer Science</h3>
-              <div class="card-text text-start">
+              <div class="card-text">
                 <ul class="list-unstyled">
                   <li>Programming </li>
                   <li>Algorithms </li>
