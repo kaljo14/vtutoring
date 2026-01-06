@@ -81,6 +81,33 @@
             </div>
           </div>
         </div>
+        
+        <!-- Tutor 4: Steven -->
+        <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="600">
+          <div class="card h-100 text-center tutor-card">
+            <div class="card-body p-4 d-flex flex-column">
+              <div class="tutor-image-wrapper mx-auto mb-3">
+                <img :src="stevenImage" class="rounded-circle w-100 h-100 object-fit-cover" alt="Steven">
+              </div>
+              <h3 class="card-title fw-bold mb-2">Steven Georgiev</h3>
+              <p class="text-muted mb-3"><small>Neuroscience & Science Education</small></p>
+              <div class="degrees mb-3">
+                <span class="badge bg-custom-purple mb-2 me-1">BS Neuroscience</span>
+                <span class="badge bg-custom-purple mb-2">MAT Secondary Science Education</span>
+              </div>
+              <p class="card-text text-muted small mb-3">
+                Steven holds a Bachelor's degree in Neuroscience and a Master of Arts in Teaching (Secondary Science Education). He has several years of experience teaching high school Biology, Chemistry, Environmental Science, Anatomy, Physiology, and Earth Science.
+                <br><br>
+                Steven also holds a TESOL endorsement and has extensive experience working with ESL/ELL high school students. He specializes in making complex scientific concepts clear, accessible, and engaging for students of all academic levels.
+                <br><br>
+                Steven is a flexible and approachable tutor who values building connections with students while helping them achieve their academic goals in science.
+              </p>
+              <div class="price mt-auto">
+                <span class="h6 text-primary fw-bold">Price determined by course difficulty</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="row mt-5">
         <div class="col-12 text-center">
@@ -97,6 +124,7 @@
 import desiImage from '../assets/desi.jpeg';
 import vikiImage from '../assets/1719041128170.jpeg';
 import kaloyanImage from '../assets/image002.JPG';
+import stevenImage from '../assets/Svet.jpeg';
 
 export default {
   name: 'Tutors',
@@ -104,7 +132,8 @@ export default {
     return {
       desiImage,
       vikiImage,
-      kaloyanImage
+      kaloyanImage,
+      stevenImage
     };
   }
 };

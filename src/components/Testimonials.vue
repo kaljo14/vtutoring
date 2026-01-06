@@ -15,13 +15,10 @@
           </div>
         </div>
       </div>
-      <div v-else class="text-center">
-        <p>No reviews yet. Be the first to leave a review!</p>
-      </div>
 
       <div class="text-center mt-5" data-aos="fade-up" data-aos-delay="600">
         <a href="https://www.google.com/search?si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-E6viby15YIHwbV6wd7pjmBhhIQPDMidfkWoi7-hfmMwADcmCD1lFjxT4uag8I7kaGIxbmBIR5tu1kQx3SmbzWjOMfCIF&q=VikTutors+Reviews#lrd=0x6d60ccc61463a6f:0xc12f7b4e7b59340b,3" target="_blank" rel="noopener noreferrer" class="btn btn-special btn-lg px-5 py-3 rounded-pill fw-bold shadow">
-          <i class="bi bi-google me-2"></i> Leave a Review
+          <i class="bi bi-google me-2"></i> Reviews
         </a>
       </div>
     </div>
