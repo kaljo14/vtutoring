@@ -61,8 +61,10 @@ h6 {
 }
 
 .btn-primary:hover {
-  background-color: #0056b3;
-  /* A darker blue on hover */
+  background-color: #cbb4f5;
+  /* Lighter Lavender */
+  border-color: #cbb4f5;
+  box-shadow: 0 4px 12px rgba(174, 138, 240, 0.5);
   transform: translateY(-2px);
 }
 
