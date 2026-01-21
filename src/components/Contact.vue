@@ -6,7 +6,7 @@
         <div v-if="submitted" class="alert alert-success" role="alert">
           Thank you for your message! We will get back to you shortly.
         </div>
-        <form v-else @submit.prevent="handleSubmit" class="p-4 bg-white rounded-3 shadow-sm">
+        <form v-else @submit.prevent="handleSubmit" class="p-5 bg-white rounded-3 shadow-lg border-top border-4" style="border-color: var(--accent-purple) !important;">
           <div class="form-floating mb-3">
             <input type="text" class="form-control" id="name" placeholder="John Doe" v-model="form.name" required>
             <label for="name">Your Name</label>
@@ -16,14 +16,22 @@
             <label for="email">Email address</label>
           </div>
           <div class="form-floating mb-3">
+            <input type="tel" class="form-control" id="phone" placeholder="+1234567890" v-model="form.phone">
+            <label for="phone">Phone Number</label>
+          </div>
+          <div class="form-floating mb-4">
             <textarea class="form-control" id="message" rows="5" placeholder="How can we help?" v-model="form.message" required style="height: 150px;"></textarea>
             <label for="message">Message</label>
           </div>
-          <div class="text-center">
-            <button type="submit" class="btn btn-special btn-lg" :disabled="submitting">
+          <div class="d-grid gap-3 d-md-flex justify-content-md-center align-items-center">
+            <button type="submit" class="btn btn-special btn-lg px-5" :disabled="submitting">
               <span v-if="submitting" class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
               <span v-else>Send Message</span>
             </button>
+            <span class="text-muted mx-2 d-none d-md-inline">or</span>
+            <a href="tel:3098322172" class="btn btn-special btn-lg px-4">
+                <i class="bi bi-telephone-fill me-2"></i> (309) 832-32172
+            </a>
           </div>
         </form>
       </div>
@@ -38,6 +46,7 @@ import { ref } from 'vue';
 const form = ref({
   name: '',
   email: '',
+  phone: '',
   message: '',
 });
 
@@ -65,6 +74,7 @@ const handleSubmit = async () => {
         form.value = {
           name: '',
           email: '',
+          phone: '',
           message: '',
         };
       }, 5000);
