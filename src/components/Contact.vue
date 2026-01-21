@@ -30,7 +30,7 @@
             </button>
             <span class="text-muted mx-2 d-none d-md-inline">or</span>
             <a href="tel:3098322172" class="btn btn-special btn-lg px-4">
-                <i class="bi bi-telephone-fill me-2"></i> (309) 832-32172
+                <i class="bi bi-telephone-fill me-2"></i> (309) 832-2172
             </a>
           </div>
         </form>
